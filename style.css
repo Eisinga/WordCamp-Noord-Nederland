@@ -6,7 +6,7 @@
 	height: 550px;
 }
 
-.site-header {
+.site .site-header {
 	background-image: url( 'https://2018.noordnederland.wordcamp.org/files/2017/12/header-image.jpg' );
 }
 
@@ -19,6 +19,9 @@
 }
 
 /* Navigation */
+.menu {
+	border-top: 1px solid #fff;
+}
 .main-navigation {
 	background-color: #26223c;
 }
