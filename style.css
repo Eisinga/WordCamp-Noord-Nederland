@@ -36,3 +36,13 @@
 	font-family: 'Lato', sans-serif;
 	padding: 1.5rem 2rem;
 }
+
+/* Titles */
+.entry-title{
+	font-family: 'Lato', sans-serif;
+}
+
+/* Paragraphs */
+.entry-content p {
+	font-family: 'Roboto Slab', serif;
+}
