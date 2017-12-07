@@ -6,6 +6,10 @@
 	height: 550px;
 }
 
+.custom-header {
+	width: 600px;
+}
+
 .site .site-header {
 	background-image: url( 'https://2018.noordnederland.wordcamp.org/files/2017/12/header-image.jpg' );
 }
