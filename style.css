@@ -1,3 +1,4 @@
+/* Header */
 .custom-header {
 	display: flex;
 	justify-content: center;
@@ -5,10 +6,8 @@
 	height: 550px;
 }
 
-@media (min-width: 48em) {
-	.site-header {
-		background-image: url( 'https://2018.noordnederland.wordcamp.org/files/2017/12/header-image.jpg' );
-	}
+.site-header {
+	background-image: url( 'https://2018.noordnederland.wordcamp.org/files/2017/12/header-image.jpg' );
 }
 
 .site-title a:before {
@@ -17,4 +16,20 @@
 
 .site-branding {
 	display: none;
+}
+
+/* Navigation */
+.main-navigation {
+	background-color: #26223c;
+}
+
+.page-navigation-container li {
+	display: inline-block;
+	float: none;
+}
+
+.page-navigation-container li a {
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	padding: 1.5rem 2rem;
 }
