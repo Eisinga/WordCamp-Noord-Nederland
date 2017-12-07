@@ -1,0 +1,20 @@
+.custom-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 550px;
+}
+
+@media (min-width: 48em) {
+	.site-header {
+		background-image: url( 'https://2018.noordnederland.wordcamp.org/files/2017/12/header-image.jpg' );
+	}
+}
+
+.site-title a:before {
+	background-image: url( '/img/wordcamp-noord-nederlang-logo-white.svg' );
+}
+
+.site-branding {
+	display: none;
+}
