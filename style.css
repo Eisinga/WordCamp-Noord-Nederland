@@ -68,7 +68,7 @@ footer#colophon .site-info-network {
 }
 
 /* Mobile */
-@media screen and (max-width: 768) {
+@media screen and (max-width: 768px) {
 	.custom-header {
 		height: 200px;
 	}
