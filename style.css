@@ -50,3 +50,14 @@
 .entry-content p {
 	font-family: 'Roboto Slab', serif;
 }
+
+/* Colophon */
+footer #colophon {
+	background: #26223c;
+	max-width: 100%;
+}
+
+footer #colophon .site-info-network {
+	background-color: #26223c;
+	margin-top: 11px;
+}
