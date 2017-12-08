@@ -27,6 +27,7 @@
 .menu {
 	border-top: 1px solid #fff;
 }
+
 .main-navigation {
 	background-color: #26223c;
 }
@@ -42,7 +43,7 @@
 	padding: 1.5rem 2rem;
 }
 
-.menu-toggle {
+#site-navigation .menu-toggle {
 	background-color: #26223c;
 }
 
@@ -77,7 +78,7 @@ footer#colophon .site-info-network {
 		width: 300px;
 	}
 
-	#site-navigation .main-navigation {
+	.main-navigation {
 		background-color: #26223c;
 	}
 
