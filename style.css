@@ -7,6 +7,7 @@
 }
 
 .custom-header img {
+	margin-bottom: 0;
 	width: 600px;
 }
 
@@ -41,6 +42,10 @@
 	padding: 1.5rem 2rem;
 }
 
+.menu-toggle {
+	background-color: #26223c;
+}
+
 /* Titles */
 .entry-title{
 	font-family: 'Lato', sans-serif;
@@ -60,4 +65,23 @@ footer#colophon {
 footer#colophon .site-info-network {
 	background-color: #26223c;
 	margin-top: 18px;
+}
+
+/* Mobile */
+@media screen and (max-width: 768) {
+	.custom-header {
+		height: 200px;
+	}
+
+	.custom-header img {
+		width: 300px;
+	}
+
+	.main-navigation {
+		background-color: #26223c;
+	}
+
+	.page-navigation-container li {
+		display: block;
+	}
 }
