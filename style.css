@@ -52,12 +52,12 @@
 }
 
 /* Colophon */
-footer #colophon {
+footer#colophon {
 	background: #26223c;
 	max-width: 100%;
 }
 
-footer #colophon .site-info-network {
+footer#colophon .site-info-network {
 	background-color: #26223c;
 	margin-top: 11px;
 }
