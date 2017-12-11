@@ -151,6 +151,7 @@ form input[type="submit"] {
 	border-color: #fff;
 	color: #fff;
 	display: inline-block !important;
+	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	margin-top: 25px;
 	width: 18%;
