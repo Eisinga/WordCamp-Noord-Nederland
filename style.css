@@ -77,6 +77,10 @@ article .entry-title a {
 	font-family: 'Roboto Slab', serif;
 }
 
+.entry-content a {
+	color: #DA5F5C !important;
+}
+
 article .entry-meta a,
 article .comments-link a,
 article .edit-link a {
