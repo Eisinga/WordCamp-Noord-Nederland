@@ -68,8 +68,7 @@
 }
 
 .post:after {
-	background: none;
-	height: 0;
+	height: 0 !important;
 }
 
 /* Titles */
