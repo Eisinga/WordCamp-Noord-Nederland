@@ -57,15 +57,15 @@
 }
 
 /* Titles */
-.article .entry-title {
+article .entry-title {
 	font-family: 'Lato', sans-serif;
 }
 
-.article .entry-title a {
+article .entry-title a {
 	color: #26223c;
 }
 
-.article .entry-title a:hover {
+article .entry-title a:hover {
 	text-decoration: none;
 }
 
@@ -74,9 +74,9 @@
 	font-family: 'Roboto Slab', serif;
 }
 
-.article .entry-meta a,
-.article .comments-link a,
-.article .edit-link a {
+article .entry-meta a,
+article .comments-link a,
+article .edit-link a {
 	color: #26223c;
 }
 
