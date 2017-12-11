@@ -65,7 +65,10 @@ article .entry-title a {
 	color: #26223c;
 }
 
+article .entry-title a:active
+article .entry-title a:foces
 article .entry-title a:hover {
+	color: #26223c;
 	text-decoration: none;
 }
 
@@ -79,6 +82,10 @@ article .comments-link a,
 article .edit-link a {
 	color: #26223c;
 }
+
+article .entry-meta a:active,
+article .entry-meta a:focus,
+article .entry-meta a:hover
 
 /* Colophon */
 footer#colophon {
