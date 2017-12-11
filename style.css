@@ -47,14 +47,36 @@
 	background-color: #26223c;
 }
 
+.menu-item a:hover {
+	background-color: #DA5F5C;
+}
+
+.current-menu-item a {
+	background-color: #DA5F5C;
+}
+
 /* Titles */
 .entry-title{
 	font-family: 'Lato', sans-serif;
 }
 
+.entry-title a {
+	color: #26223c;
+}
+
+.entry-title a:hover {
+	text-decoration: none;
+}
+
 /* Paragraphs */
 .entry-content p {
 	font-family: 'Roboto Slab', serif;
+}
+
+.entry-meta a,
+.comments-link a,
+.edit-link a {
+	color: #26223c;
 }
 
 /* Colophon */
