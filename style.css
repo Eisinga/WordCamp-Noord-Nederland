@@ -63,6 +63,15 @@
 	}
 }
 
+.post {
+	padding-bottom: 0px;
+}
+
+.post:after {
+	background: none;
+	height: 0;
+}
+
 /* Titles */
 article .entry-title {
 	font-family: 'Lato', sans-serif;
