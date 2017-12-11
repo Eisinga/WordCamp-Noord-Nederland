@@ -133,6 +133,8 @@ article .edit-link a {
 }
 
 form label {
+	display: inline-block !important;
+	font-family: 'Lato', sans-serif;
 	text-align: left;
 }
 
@@ -146,9 +148,9 @@ form input[type="submit"] {
 	background: #DA5F5C;
 	border-color: #fff;
 	color: #fff;
-	display: inline-block;
+	display: inline-block !important;
 	margin-top: 25px;
-	width: 30%;
+	width: 18%;
 }
 
 form input[type="submit"]:hover {
