@@ -35,6 +35,7 @@
 .page-navigation-container li {
 	display: inline-block;
 	float: none;
+	margin-left: -5px;
 }
 
 .page-navigation-container li a {
@@ -47,24 +48,24 @@
 	background-color: #26223c;
 }
 
-.menu-item a:hover {
+.page-navigation-container .menu-item a:hover {
 	background-color: #DA5F5C;
 }
 
-.current-menu-item a {
+.page-navigation-container .current-menu-item a {
 	background-color: #DA5F5C;
 }
 
 /* Titles */
-.entry-title{
+.article .entry-title {
 	font-family: 'Lato', sans-serif;
 }
 
-.entry-title a {
+.article .entry-title a {
 	color: #26223c;
 }
 
-.entry-title a:hover {
+.article .entry-title a:hover {
 	text-decoration: none;
 }
 
@@ -73,9 +74,9 @@
 	font-family: 'Roboto Slab', serif;
 }
 
-.entry-meta a,
-.comments-link a,
-.edit-link a {
+.article .entry-meta a,
+.article .comments-link a,
+.article .edit-link a {
 	color: #26223c;
 }
 
