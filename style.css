@@ -78,7 +78,12 @@ article .entry-title a {
 }
 
 .entry-content a {
+	box-shadow: inset 0 -1px 0 0 rgba(218, 95, 92, .5);
 	color: #DA5F5C !important;
+}
+
+.entry-content a:hover {
+	box-shadow: inset 0 -1px 0 0 rgba(218, 95, 92, .5);
 }
 
 article .entry-meta a,
