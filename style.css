@@ -149,6 +149,7 @@ form label {
 }
 
 form input[type="text"] {
+	border-color: #fff;
 	display: inline-block;
 	font-family: 'Lato', sans-serif;
 	margin: 0 16px 0 0;
