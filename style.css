@@ -57,8 +57,10 @@
 }
 
 /* Content */
-#content {
-	padding: 4.5rem 3rem 0 3rem;
+@media (min-width: 62em) {
+	#content {
+		padding: 4.5rem 3rem 0 3rem;
+	}
 }
 
 /* Titles */
@@ -113,15 +115,46 @@ article .edit-link a {
 
 /* Widgets */
 .widget {
+	color: #fff;
 	margin: 0;
+}
+
+.widget-title {
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+}
+
+.textwidget {
+	font-family: 'Roboto Slab', serif;
 }
 
 #primary-sidebar section:before {
 	background: #DA5F5C;
 }
 
+form label {
+	text-align: left;
+}
+
+form input {
+	margin-bottom: 25px;
+}
+
+form input[type="submit"] {
+	background: #DA5F5C;
+	border-color: #fff;
+	color: #fff;
+	margin-top: 25px;
+}
+
+form input[type="submit"]:hover {
+	background: #fff;
+	border-color: #fff;
+	color: #DA5F5C;
+}
+
 #secondary-sidebar section:before {
-	background: #26223c !important;
+	background: #26223c;
 }
 
 /* Colophon */
