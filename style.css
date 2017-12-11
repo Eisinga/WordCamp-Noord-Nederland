@@ -56,6 +56,11 @@
 	background-color: #DA5F5C;
 }
 
+/* Content */
+#content {
+	padding: 4.5rem 3rem 0 3rem;
+}
+
 /* Titles */
 article .entry-title {
 	font-family: 'Lato', sans-serif;
@@ -106,14 +111,28 @@ article .edit-link a {
 	color: #26223c !important;
 }
 
+/* Widgets */
+.widget {
+	margin: 0;
+}
+
+#primary-sidebar section:before {
+	background: #DA5F5C;
+}
+
+#secondary-sidebar section:before {
+	background: #26223c !important;
+}
+
 /* Colophon */
 footer#colophon {
-	background: #26223c;
+	background: #12101D;
+	margin-top: 0;
 	max-width: 100%;
 }
 
 footer#colophon .site-info-network {
-	background-color: #26223c;
+	background-color: #12101D;
 	margin-top: 18px;
 }
 
