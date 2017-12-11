@@ -137,7 +137,9 @@ form label {
 }
 
 form input[type="text"] {
+	display: inline-block;
 	margin-bottom: 25px;
+	width: 30%;
 }
 
 form input[type="submit"] {
