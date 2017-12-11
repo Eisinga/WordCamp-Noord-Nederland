@@ -154,7 +154,7 @@ form input[type="submit"]:hover {
 }
 
 #secondary-sidebar section:before {
-	background: #26223c;
+	background: #26223c !important;
 }
 
 /* Colophon */
