@@ -157,7 +157,7 @@ form input[type="text"] {
 
 form input[type="text"] {
 	border: none;
-	box-shadow: none;
+	box-shadow: none !important;
 }
 
 form input[type="submit"] {
