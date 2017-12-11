@@ -65,9 +65,10 @@ article .entry-title a {
 	color: #26223c;
 }
 
-article .entry-title a:active
-article .entry-title a:foces
-article .entry-title a:hover {
+.entry-title a:active,
+.entry-title a:focus,
+.entry-title a:hover {
+	box-shadow: none;
 	color: #26223c;
 	text-decoration: none;
 }
