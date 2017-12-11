@@ -59,7 +59,7 @@
 /* Content */
 @media (min-width: 62em) {
 	#content {
-		padding: 4.5rem 3rem 0 3rem;
+		padding: 4.5rem 3rem 0 3rem !important;
 	}
 }
 
@@ -129,14 +129,14 @@ article .edit-link a {
 }
 
 #primary-sidebar section:before {
-	background: #DA5F5C;
+	background: #DA5F5C !important;
 }
 
 form label {
 	text-align: left;
 }
 
-form input {
+form input[type="text"] {
 	margin-bottom: 25px;
 }
 
