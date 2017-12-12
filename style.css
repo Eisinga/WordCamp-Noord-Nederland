@@ -187,18 +187,23 @@ form input[type="submit"]:hover {
 	display: block !important;
 }
 
-.contact-form input[type=text] {
+.contact-form input[type="text"] {
 	border-color: #bfbdb5;
-	width: 640px;
+	width: 640px !important;
 }
 
 .contact-form input[type="text"]:focus {
 	border-color: #bfbdb5;
 }
 
+.contact-form input[type="email"] {
+	border-color: #bfbdb5;
+	width: 640px !important;
+}
+
 form input[type="email"]:focus,
 textarea:focus {
-	border: 1px solid #bfbdb5;
+	border: 1px solid #bfbdb5 !important;
 	box-shadow: none !important;
 }
 
