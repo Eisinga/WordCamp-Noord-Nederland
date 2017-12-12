@@ -196,6 +196,10 @@ footer#colophon .site-info-network {
 
 /* Mobile */
 @media screen and (max-width: 768px) {
+	#content {
+		padding-bottom: 0;
+	}
+
 	.custom-header {
 		height: 200px;
 	}
@@ -210,5 +214,23 @@ footer#colophon .site-info-network {
 
 	.page-navigation-container li {
 		display: block;
+	}
+
+	.page-navigation-container li a {
+		padding: 1rem 2rem;
+	}
+
+	form label {
+		display: block !important;
+	}
+
+	form input[type="text"] {
+		display: block;
+		margin-bottom: 20px;
+		width: 100%;
+	}
+
+	form input[type="submit"] {
+		width: 100%;
 	}
 }
