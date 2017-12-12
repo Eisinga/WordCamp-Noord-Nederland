@@ -263,6 +263,7 @@ footer#colophon .site-info-network {
 	.contact-form input[type=text],
 	.contact-form input[type=email],
 	.contact-form textarea {
+		max-width: 100% !important;
 		width: 100% !important;
 	}
 }
