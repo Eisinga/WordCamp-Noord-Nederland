@@ -197,7 +197,7 @@ footer#colophon .site-info-network {
 /* Mobile */
 @media screen and (max-width: 768px) {
 	#content {
-		padding-bottom: 0;
+		padding-bottom: 0 !important;
 	}
 
 	.custom-header {
@@ -231,6 +231,7 @@ footer#colophon .site-info-network {
 	}
 
 	form input[type="submit"] {
+		margin-top: 0;
 		width: 100%;
 	}
 }
