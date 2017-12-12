@@ -182,6 +182,26 @@ form input[type="submit"]:hover {
 	background: #26223c !important;
 }
 
+/* Contact Form on pag */
+.contact-form label {
+	display: block !important;
+}
+
+.contact-form input[type=text] {
+	border-color: #bfbdb5;
+	width: 640px;
+}
+
+.contact-form input[type="text"]:focus {
+	border-color: #bfbdb5;
+}
+
+form input[type="email"]:focus,
+textarea:focus {
+	border: 1px solid #bfbdb5;
+	box-shadow: none !important;
+}
+
 /* Colophon */
 footer#colophon {
 	background: #12101D;
