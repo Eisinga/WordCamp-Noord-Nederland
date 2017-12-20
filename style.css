@@ -44,6 +44,10 @@
 	padding: 1.5rem 2rem;
 }
 
+.page-navigation-container ul ul a {
+	width: 100% !important;
+}
+
 #site-navigation .menu-toggle {
 	background-color: #26223c;
 }
@@ -62,7 +66,7 @@
 	}
 
 	.menu-item-has-children.focus>a, .menu-item-has-children:hover>a {
-		background: #da5f5b;
+		background-color: #da5f5b !important;
 	}
 
 	.menu-item-has-children>a:after {
