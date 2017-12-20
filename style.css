@@ -83,6 +83,8 @@
 	.page-navigation-container ul ul {
 		float: initial !important;
 		position: relative !important;
+		left: 0;
+		top: 0;
 	}
 
 	.page-navigation-container ul ul a {
@@ -90,7 +92,7 @@
 	}
 
 	.page-navigation-container ul ul a:before {
-		display: none !important;
+		/* display: none !important; */
 	}
 }
 
