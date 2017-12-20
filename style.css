@@ -56,6 +56,16 @@
 	background-color: #DA5F5C;
 }
 
+@media (min-width: 37.5em) {
+	.menu-item-has-children.focus>.sub-menu, .menu-item-has-children:hover>.sub-menu {
+		top: 71px;
+	}
+
+	.sub-menu .menu-item {
+		border-top: 0;
+	}
+}
+
 /* Content */
 @media (min-width: 62em) {
 	#content {
