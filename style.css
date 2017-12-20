@@ -61,8 +61,17 @@
 		top: 71px;
 	}
 
+	.menu-item-has-children.focus>a, .menu-item-has-children:hover>a {
+		background: #da5f5b;
+	}
+
+	.menu-item-has-children>a:after {
+		border-top-color: #fff !important;
+	}
+
 	.sub-menu .menu-item {
-		border-top: 0;
+		background: #26233c;
+		border-top: 1px solid rgba(255, 255, 255, .5) !important;
 	}
 }
 
