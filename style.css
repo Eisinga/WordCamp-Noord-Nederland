@@ -79,6 +79,21 @@
 	}
 }
 
+@media screen and (max-width: 768px) {
+	.page-navigation-container ul ul {
+		float: initial !important;
+		position: relative !important;
+	}
+
+	.page-navigation-container ul ul a {
+		padding-left: 35px !important;
+	}
+
+	.page-navigation-container ul ul a:before {
+		display: none !important;
+	}
+}
+
 /* Content */
 @media (min-width: 62em) {
 	#content {
