@@ -81,18 +81,16 @@
 
 @media screen and (max-width: 768px) {
 	.page-navigation-container ul ul {
-		float: initial !important;
-		position: relative !important;
+		box-shadow: none;
+		float: initial;
+		position: relative;
 		left: 0;
 		top: 0;
+		margin-left: 20px;
 	}
 
 	.page-navigation-container ul ul a {
 		padding-left: 35px !important;
-	}
-
-	.page-navigation-container ul ul a:before {
-		/* display: none !important; */
 	}
 }
 
