@@ -110,7 +110,7 @@
 }
 
 #secondary {
-	max-width: 100%;
+	max-width: 100% !important;
 }
 
 #secondary-sidebar section {
