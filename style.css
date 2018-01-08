@@ -109,6 +109,14 @@
 	height: 0 !important;
 }
 
+#secondary {
+	max-width: 100%;
+}
+
+#secondary-sidebar section {
+	max-width: 100%;
+}
+
 /* Titles */
 article .entry-title {
 	font-family: 'Lato', sans-serif;
@@ -207,7 +215,7 @@ form input[type="submit"] {
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	margin-top: 25px;
-	width: 18%;
+	width: 17%;
 }
 
 form input[type="submit"]:hover {
