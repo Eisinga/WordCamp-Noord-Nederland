@@ -220,6 +220,11 @@ form input[type="submit"]:hover {
 	background: #26223c !important;
 }
 
+#secondary-sidebar img {
+	display: inline-block;
+	margin: 0 15px;
+}
+
 /* Contact Form on pag */
 .contact-form label {
 	display: block !important;
@@ -260,6 +265,10 @@ footer#colophon .site-info-network {
 /* Footer */
 #content-widgets section {
 	max-width: 100%;
+}
+
+#content-widgets section img {
+	margin: 0 auto;
 }
 
 /* Mobile */
