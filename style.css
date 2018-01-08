@@ -266,7 +266,7 @@ footer#colophon .site-info-network {
 }
 
 /* Footer */
-#footer-widgets .section {
+#footer-widgets section {
 	max-width: 100%;
 }
 
