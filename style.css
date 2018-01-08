@@ -265,6 +265,11 @@ footer#colophon .site-info-network {
 	margin-top: 18px;
 }
 
+/* Footer */
+#footer-widgets .widget_text {
+	max-width: 100%;
+}
+
 /* Mobile */
 @media screen and (max-width: 768px) {
 	#content {
