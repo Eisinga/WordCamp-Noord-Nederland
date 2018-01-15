@@ -219,6 +219,7 @@ form input[type="submit"]:hover {
 #content-widget-1 {
 	background-color: #eae9e6;
 	text-align: center;
+	margin: 0 -1rem;
 	max-height: 188px;
 }
 
