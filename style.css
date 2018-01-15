@@ -346,14 +346,14 @@ footer#colophon .site-info-network {
 	}
 }
 
-@media screen and (min-width: 62em) {
+@media (min-width: 48em) {
 	#content-widget-1 {
-		margin: 0 -3rem;
+		margin: 0 -2rem;
 	}
 }
 
-@media screen and (min-width: 48em) {
+@media (min-width: 62em) {
 	#content-widget-1 {
-		margin: 0 -2rem;
+		margin: 0 -3rem;
 	}
 }
