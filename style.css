@@ -220,8 +220,12 @@ form input[type="submit"]:hover {
 	background-color: #eae9e6;
 }
 
+#content-widget-1 .widget {
+	padding: 0;
+}
+
 #content-widget-1 .widget img {
-	max-width: 300px;
+	max-width: 300px !important;
 }
 
 #secondary-sidebar section:before {
