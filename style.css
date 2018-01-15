@@ -358,3 +358,9 @@ footer#colophon .site-info-network {
 		margin: 0 -3rem;
 	}
 }
+
+@media (max-width: 1080px) {
+	#content-widget-1 .widget img {
+		max-width: 190px;
+	}
+}
