@@ -129,6 +129,11 @@ article .entry-title a {
 	max-width: 100% !important;
 }
 
+.wcorg-sponsor .wcorg-sponsor-description p,
+.wcorg-sponsor .wcorg-sponsor-description ul {
+	display: none;
+}
+
 /* Paragraphs */
 .entry-content p {
 	font-family: 'Roboto Slab', serif;
