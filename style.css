@@ -130,7 +130,8 @@ article .entry-title a {
 }
 
 .wcorg-sponsor .wcorg-sponsor-description p,
-.wcorg-sponsor .wcorg-sponsor-description ul {
+.wcorg-sponsor .wcorg-sponsor-description ul,
+.wcorg-sponsor .wcorg-sponsor-description span {
 	display: none;
 }
 
