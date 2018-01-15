@@ -140,6 +140,10 @@ article .entry-title a {
 	border-top: 3px solid #DA5F5C;
 }
 
+.wcorg-sponsor img {
+	margin: 0 30px;
+}
+
 /* Paragraphs */
 .entry-content p {
 	font-family: 'Roboto Slab', serif;
@@ -383,7 +387,7 @@ footer#colophon .site-info-network:after {
 	}
 
 	.wcorg-sponsor img {
-		max-height: 9.5rem;
+		max-height: 9.5rem !important;
 	}
 }
 
