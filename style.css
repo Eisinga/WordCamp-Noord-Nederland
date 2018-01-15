@@ -271,6 +271,16 @@ textarea:focus {
 	box-shadow: none !important;
 }
 
+input#tix-coupon-input {
+	border: 1px solid #bfbdb5;
+	border-radius: .1875rem !important;
+}
+
+#tix-coupon-container input[type=submit] {
+	background-color: #da5f5b;
+	margin-top: 0;
+}
+
 /* Colophon */
 footer#colophon {
 	background: #12101D;
@@ -365,7 +375,7 @@ footer#colophon .site-info-network {
 
 @media (max-width: 1080px) {
 	#content-widget-1 .widget img {
-		max-width: 190px !important;
+		max-width: 196px !important;
 	}
 }
 
