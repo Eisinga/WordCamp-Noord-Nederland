@@ -141,7 +141,7 @@ article .entry-title a {
 }
 
 .wcorg-sponsor img {
-	margin: 0 30px;
+	margin: 0 30px !important;
 }
 
 /* Paragraphs */
