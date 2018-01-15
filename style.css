@@ -97,7 +97,7 @@
 /* Content */
 @media (min-width: 62em) {
 	#content {
-		padding: 4.5rem 3rem 0 3rem !important;
+		padding: 4.5rem 0 0 !important;
 	}
 }
 
@@ -216,6 +216,14 @@ form input[type="submit"]:hover {
 	color: #DA5F5C;
 }
 
+#content-widget-1 {
+	background-color: #eae9e6;
+}
+
+#content-widget-1 .widget img {
+	max-width: 300px;
+}
+
 #secondary-sidebar section:before {
 	background: #26223c !important;
 }
@@ -225,7 +233,7 @@ form input[type="submit"]:hover {
 	margin: 20px 25px 0;
 }
 
-/* Contact Form on pag */
+/* Contact Form on page */
 .contact-form label {
 	display: block !important;
 }
