@@ -126,7 +126,7 @@ article .entry-title a {
 }
 
 .page-slug-sponsors #content {
-	max-width: 100%;
+	max-width: 100% !important;
 }
 
 /* Paragraphs */
