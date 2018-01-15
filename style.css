@@ -97,7 +97,7 @@
 /* Content */
 @media (min-width: 62em) {
 	#content {
-		padding: 4.5rem 0 0 !important;
+		padding: 4.5rem 3rem 0 3rem !important;
 	}
 }
 
