@@ -361,6 +361,6 @@ footer#colophon .site-info-network {
 
 @media (max-width: 1080px) {
 	#content-widget-1 .widget img {
-		max-width: 190px;
+		max-width: 190px !important;
 	}
 }
