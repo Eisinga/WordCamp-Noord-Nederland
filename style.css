@@ -298,6 +298,10 @@ footer#colophon .site-info-network {
 	margin-top: 18px;
 }
 
+footer#colophon .site-info-network:after {
+	content: none;
+}
+
 /* Footer */
 #content-widgets section {
 	max-width: 100%;
@@ -357,10 +361,6 @@ footer#colophon .site-info-network {
 }
 
 @media screen and (max-width: 320px) {
-	#content-widget-1 {
-		display: none;
-	}
-
 	#secondary-sidebar img {
 		margin: 20px 18px 0;
 	}
@@ -385,7 +385,13 @@ footer#colophon .site-info-network {
 }
 
 @media (max-width: 767px) {
-	#content-widget-1 .widget {
-		display: none;
+	#content-widget-1 {
+		max-height: 258px;
+	}
+}
+
+@media (max-width: 512px) {
+	#content-widget-1 {
+		max-height: 100%;
 	}
 }
