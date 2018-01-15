@@ -277,8 +277,13 @@ input#tix-coupon-input {
 }
 
 #tix-coupon-container input[type=submit] {
-	background-color: #da5f5b;
+	background-color: #da5f5b !important;
 	margin-top: 0;
+}
+
+td.tix-right input {
+	border: 1px solid #bfbdb5;
+	border-radius: .1875rem !important;
 }
 
 /* Colophon */
