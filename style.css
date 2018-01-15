@@ -142,7 +142,7 @@ article .entry-title a {
 
 .wcorg-sponsor img {
 	margin: 0 30px !important;
-	max-height: 7.75rem;
+	max-height: 7.75rem !important;
 }
 
 /* Paragraphs */
