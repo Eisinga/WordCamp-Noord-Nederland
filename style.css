@@ -335,3 +335,13 @@ footer#colophon .site-info-network {
 		width: 100% !important;
 	}
 }
+
+@media screen and (max-width: 320px) {
+	#content-widget-1 {
+		display: none;
+	}
+
+	#secondary-sidebar img {
+		margin: 20px 18px 0;
+	}
+}
