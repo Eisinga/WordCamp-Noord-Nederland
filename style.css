@@ -366,7 +366,7 @@ footer#colophon .site-info-network {
 }
 
 @media (max-width: 767px) {
-	#content-widget-1 .widget img {
+	#content-widget-1 .widget {
 		display: none;
 	}
 }
