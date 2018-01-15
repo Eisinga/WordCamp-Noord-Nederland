@@ -125,6 +125,10 @@ article .entry-title a {
 	color: #26223c !important;
 }
 
+.page-slug-sponsors #content {
+	max-width: 100%;
+}
+
 /* Paragraphs */
 .entry-content p {
 	font-family: 'Roboto Slab', serif;
