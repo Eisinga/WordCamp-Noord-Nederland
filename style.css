@@ -411,6 +411,12 @@ footer#colophon .site-info-network:after {
 	}
 }
 
+@media (max-width: 727) {
+	#content-widget-1 .widget img {
+		margin: 20px 38px;
+	}
+}
+
 @media (max-width: 543px) {
 	#content-widget-1 {
 		max-height: 100%;
