@@ -401,9 +401,13 @@ footer#colophon .site-info-network:after {
 	}
 }
 
-@media (max-width: 815px) {
+@media (max-width: 1087px) {
 	#content-widget-1 {
 		max-height: 258px;
+	}
+
+	#content-widget-1 .widget img {
+		margin: 20px 84px;
 	}
 }
 
