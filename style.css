@@ -411,7 +411,7 @@ footer#colophon .site-info-network:after {
 	}
 }
 
-@media (max-width: 727) {
+@media (max-width: 727px) {
 	#content-widget-1 .widget img {
 		margin: 20px 38px;
 	}
