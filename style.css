@@ -420,5 +420,6 @@ footer#colophon .site-info-network:after {
 @media (max-width: 543px) {
 	#content-widget-1 .widget img {
 		margin: 0px 38px;
+		max-height: 428px;
 	}
 }
