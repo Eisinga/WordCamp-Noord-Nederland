@@ -407,13 +407,13 @@ footer#colophon .site-info-network:after {
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 815px) {
 	#content-widget-1 {
 		max-height: 258px;
 	}
 }
 
-@media (max-width: 512px) {
+@media (max-width: 543px) {
 	#content-widget-1 {
 		max-height: 100%;
 	}
